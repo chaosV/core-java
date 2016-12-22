@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>qk1011</name>
+	<name>qk1012-socket</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -14,11 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>sample.xml</name>
-			<type>1</type>
-			<location>C:/Users/qingke101/Desktop/sample.xml</location>
-		</link>
-	</linkedResources>
 </projectDescription>
