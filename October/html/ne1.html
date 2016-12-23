@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<body>
+<form onsubmit="login()">
+	<h1>登陆界面</h1>
+	<br/>
+	<table>
+		<tr>
+		<td>用户名</td> <td><input type="text" id="username"></td>
+		</tr>
+
+		<tr>
+		<td>密码</td> <td><input type="text" id="password"></td>
+		</tr>
+
+		<tr>
+		<td>验证码</td> 
+		<td><input type="text" id="code"></td>
+		</tr>
+
+		<tr>
+		<td></td>
+		<td><button type="submit" >登陆</button><input type="button" value="退出"></td>
+		</tr>
+
+	</table>
+</form>
+
+<script>
+
+function login(){
+	var a = document.getElementById("username").value;
+	var b = document.getElementById("password").value;
+	var c = document.getElementById("code").value;
+		if(a =="" || b == "" || c =="" || isNaN(a)){
+			alert("用户名或密码不能为空！")
+		}else{
+			alert("登陆成功！")
+		}
+}
+
+</script>
+</body>
+</html>
